@@ -40,7 +40,7 @@ const WordPairs = () => {
                 Generate
             </button>
             <div className="flex space-x-4">
-                <div className="bg-gray-800 p-4 rounded shadow-md w-1/2">
+                <div className="bg-white dark:bg-gray-900 p-4 rounded shadow-md w-1/2">
                     <h2 className="text-xl font-bold mb-2">Window 1</h2>
                     <ul>
                         {wordPairs.map((pair, index) => (
@@ -48,7 +48,7 @@ const WordPairs = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="bg-gray-800 p-4 rounded shadow-md w-1/2">
+                <div className="bg-white dark:bg-gray-900 p-4 rounded shadow-md w-1/2">
                     <h2 className="text-xl font-bold mb-2">Window 2</h2>
                     <ul>
                         {wordPairs.map((pair, index) => (
